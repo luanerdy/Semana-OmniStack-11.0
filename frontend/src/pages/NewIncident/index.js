@@ -5,9 +5,9 @@ import { FiArrowLeft } from 'react-icons/fi';
 
 import './styles.css';
 
-export default function NewCaso(){
+export default function NewIncident(){
 	return (
-		<div className="caso-container">
+		<div className="new-incident-container">
 			<div className="content">
 				<section>
 					<img src={logoImg} alt="Be the Hero" />
