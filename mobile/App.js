@@ -1,23 +1,12 @@
+import 'intl';
+import 'intl/locale-data/jsonp/pt-BR';
+
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+
+import Routes from './src/routes';
 
 export default function App() {
   return (
-    <View style={styles.cont}>
-      <Text style={styles.nun}>Hello World</Text>
-      <Text style={styles.nun}>This is my first text</Text>
-    </View>
+    <Routes />
   );
 }
-
-const styles = StyleSheet.create({
-	cont: {
-		flex: 1,
-		backgroundColor: '#202030',
-		alignItems: 'center',
-		justifyContent: 'center'
-	},
-	nun: {
-		color: '#DDEFFA',
-	}
-})
